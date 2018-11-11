@@ -11,9 +11,14 @@ $(document).ready(function(){
             // $('.st2').removeClass("st66");
         }
 
+        if ($(window).scrollTop() + $(window).height() > $('.custom-our-expertise-row').offset().top) {
+            $('.animated05').addClass("fadeInUp");
+        } else {
+            // $('.st2').removeClass("st66");
+        }
+
     });
 });
-
 $('#oc-clients').owlCarousel({
     loop:true,
     items: 5,

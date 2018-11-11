@@ -568,6 +568,11 @@ figure.effect-lily:hover p {
 	animation-duration: 4s;
 	animation-fill-mode: both;
 }
+.animated05 {
+	opacity: 1;
+	animation-duration: 2s;
+	animation-fill-mode: both;
+}
 
 .carousel-control-prev.custom-carousel-control-prev {
 	left: 0;
@@ -1243,6 +1248,28 @@ figure.effect-lily:hover p {
 }
 .btn-primary:focus, .btn-primary.focus {
 	box-shadow: none !important;
+}
+.our-expertise-img {
+	background: #00aded;
+}
+.dark .heading-block:not(.not-dark) .bpkw-vision-h2.bpkw-our-expertise-h2, .bpkw-vision-h2-span.bpkw-our-expertise-h2-span {
+	color: #fff !important;
+}
+.section.custom-our-expertise-section {
+	/*padding-bottom: 0px;*/
+}
+.custom-our-expertise-text-col {
+	text-align: left;
+}
+.custom-our-expertise-text-h3 {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.custom-our-expertise-text-p {
+	font-family: 'Montserrat';
+	font-size: 13px;
 }
 /***************************** End Of Global Css ***************************************/
 @media (min-width: 1921px){
