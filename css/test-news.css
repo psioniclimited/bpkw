@@ -1,0 +1,655 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Hanlding Updates
+	-----------------------------------------------------------------*/
+
+	/* Global CSS */
+	a {
+		color: #555
+	}
+
+	a:hover{
+		color: #216832 ;
+	}
+
+	p,
+	pre,
+	ul,
+	ol,
+	dl,
+	dd,
+	blockquote,
+	address,
+	table,
+	fieldset,
+	form { 
+
+		margin-top: 15px;
+		margin-bottom: 30px; 
+		font-family: 'Montserrat';
+		font-size: 14px;
+		font-weight: 400;
+
+	}
+
+
+
+	h2 {
+
+		font-family: 'Muli'; 
+	}
+
+
+
+	/*Pagination starts*/
+
+	::selection {
+		background: #77b12c;
+		color: #FFF;
+		text-shadow: none;
+	}
+
+	.custom-news-page-link, .custom-news-page-link:hover, .custom-news-page-link:focus {
+		color: #FFF;
+		background-color: #77b12c ;
+		border-color: #77b12c !important;
+	}
+
+
+	.page-link {
+		border:none;
+	}
+
+	.page-item.active .page-link {
+		z-index: 1;
+		color: #fff;
+		background-color: #4c9922;
+		border-color: #4c9922;
+	}
+
+
+	.page-link:hover {
+		z-index: 1;
+		color: #fff;
+		background-color: #4c9922;
+		border-color: #4c9922;
+	}
+	
+	.page-link:focus {
+		z-index: 2;
+		outline: 0;
+		box-shadow: 0 0 0 0  #4c9922;
+	}
+
+
+
+
+	/*Pagination ends*/
+
+
+
+	/************************* Starting of Header Section *************************/
+
+	#header-wrap {
+		background-image: url(../images/custom-images/section/sister-concern/header-background.png);
+	}
+
+	#home-icon{
+
+		width: 16px;
+		height: 16px;
+		margin-top: -7%;
+	}
+
+
+	#header.sticky-header #header-wrap {
+
+		background-color: #333333;
+
+	}
+
+
+	#primary-menu ul ul li:hover > a {
+
+		background-color: #444;
+
+	}
+
+
+	#primary-menu ul ul:not(.mega-menu-column), #primary-menu ul li .mega-menu-content {
+
+		background-color: #444;
+
+		border: 1px solid #333333;
+		border-top: 1.5px solid #66912e;
+
+	}
+
+
+	.primary-menu-ul-li-a-div{
+
+		font-family: 'Muli';
+		font-weight: 300;
+		font-size: 16px;
+		color: white;
+
+	}
+
+	.primary-menu-ul-li-a-div:hover{
+
+		color: #66912e;
+
+	}
+
+
+
+	.dark #primary-menu:not(.not-dark) ul ul, .dark #primary-menu:not(.not-dark) ul li .mega-menu-content, #primary-menu.dark ul ul, #primary-menu.dark ul li .mega-menu-content {
+
+		border-top-color: #66912e; 
+	}
+
+
+
+
+
+	/************************* Ending of Header Section *************************/
+
+
+
+
+
+
+
+	/********************** Starting of palace-news *****************/	
+
+
+
+	.palace-news-section{
+		background-image: url(../images/custom-images/section/news/news.jpg);
+		background-repeat: round;
+	}
+
+
+
+	.heading-block.palace-news-custom-heading-block{
+		margin-bottom: 50px
+	}
+
+	.heading-block:after{
+
+		display: none;
+
+	}
+
+	.heading-block .palace-news-h2{
+
+		font-weight: 700;
+		font-family: 'Muli';
+		font-size: 45px;
+		/*color: #77b12c;*/
+		color: white;
+		margin-bottom: 80px;
+
+
+	}
+
+
+
+
+
+
+	.spost .entry-title h4 a, .mpost .entry-title h4 a {
+		font-weight: 500;
+		font-family: 'Montserrat';
+		font-size: 16px;
+		/*color: #77b12c;*/
+		color: #fff;
+		margin-bottom: 5px;
+	}
+
+
+	.spost .entry-title h4 a:hover, .mpost .entry-title h4 a:hover {
+
+		color: #77b12c;
+
+	}
+
+
+	.mpost .entry-content {
+		margin-top: 15px;
+		color: #fff;
+		font-weight: 300;
+		font-family: 'Montserrat';
+		font-size: 13px;
+		margin-bottom: 10px;
+	}
+
+
+	.spost, .mpost {
+
+		border-top: none;
+	}
+
+	
+
+	.more-link {
+		display: inline-block;
+		border: none;
+		padding: 0 2px;
+		font-family: 'Montserrat', serif;
+		font-style: normal;
+		color: #77b12c;
+		font-size: 12px;
+	}
+
+
+	.more-link:hover {
+		border-bottom-color: transparent;
+		color: #4c9922;
+	}
+
+	/********************** Ending of Palace-news *****************/
+
+
+
+
+
+
+	/********************** Starting of Palace-Footer *****************/
+
+	#bpfashion-power-by {
+		font-size: 14px;
+	}
+
+	#power-by-company-name-in-footer{
+		font-size: 13px;
+	}
+
+	#bpfashion-footer-logo-col{
+		margin-top: 18px;
+	}
+
+
+	#bpfashion-footer-social-icons{
+		margin-top: 38px;
+		margin-bottom: 30px;
+	}
+
+	.dark #copyrights {
+		background-color: rgba(0,0,0,0.8);
+		color: rgba(255,255,255,0.5);
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+		margin-top: 0px;
+	}
+
+	.social-icon{
+		margin-left: 15px;
+	}
+	.si-colored i {
+		color: #090a04;
+	}
+
+	.si-colored i:hover {
+		color: white;
+	}
+
+
+
+	.si-colored.si-facebook {
+		background-color: #4c9922;
+
+	}
+
+	.si-colored.si-facebook:hover {
+		background-color: #3B5998;
+
+	}
+
+
+	.si-colored.si-youtube {
+		background-color: #4c9922;
+	}
+
+
+	.si-colored.si-youtube:hover {
+		background-color: #C4302B;
+	}
+
+
+	.si-colored.si-linkedin {
+		background-color: #4c9922;
+	}
+
+
+	.si-colored.si-linkedin:hover {
+		background-color: #0E76A8;
+	}
+
+
+	#gotoTop:hover{
+
+		background-color: #61ae28;
+
+	}
+
+	#power-by-company-name-in-footer{
+		color: grey;
+	}
+
+	#power-by-company-name-in-footer:hover{
+		color: #4c9922;
+	}
+
+
+	.col_one_third.bpfashion-footer-power-by-col{
+		margin-bottom: 0px; 
+		margin-top: 90px;
+		left: 2%;
+		text-align: center;
+	}
+
+	.col_one_third.bpfashion-footer-logo-col{
+		margin-bottom: 30px;
+
+	}
+
+	.col_one_third.bpfashion-footer-social-icons-col{
+		margin-bottom: 30px;
+	}
+
+	#copyrights{
+
+		padding:0 ;
+
+	}
+
+
+	/********************** Ending of Palace-Footer *****************/
+
+
+
+
+
+	/***************************** End Of Global Css ***************************************/
+
+
+
+	@media (min-width: 1800px){
+
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+	@media (min-width: 1200px) and (max-width: 1799px){
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+	@media (min-width: 992px) and (max-width: 1199px) {
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+	@media (min-width: 768px) and (max-width: 991px) {
+
+		/*************** Palace-Header Section Starts ***************/
+		#home-icon {
+			width: 16px;
+			height: 16px;
+			margin-top: -0.95%;
+		}
+		/*************** Palace-Header Section Ends ***************/
+
+
+
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+	@media (max-width: 767px) and (min-width: 481px) {
+
+
+		/*************** Palace-Header Section Starts ***************/
+		#home-icon {
+			width: 16px;
+			height: 16px;
+			margin-top: -1.5%;
+		}
+		/*************** Palace-Header Section Ends ***************/
+
+
+
+
+
+
+
+
+		/****************** Starting of palace-Footer  Section *******************************/
+
+		#bpfashion-footer-logo{
+			margin: 0;
+			position: relative;
+			top: 50%;
+			left: 50%;
+			margin-right: -50%;
+			transform: translate(-50%, -20%);
+		}
+
+		#bpfashion-footer-social-icons{
+
+			margin: 0;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-right: -50%;
+			transform: translate(-50%, -50%);
+
+		}
+
+
+		.col_one_third.bpfashion-footer-power-by-col {
+			margin-bottom: 0px;
+			margin-top: 0px;
+			text-align: center;
+		}
+
+		#footer{
+			height: 300px;
+		}
+
+		#copyrights {
+			height: 300px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+
+		/****************** ending of palace-Footer Section *******************************/
+
+
+	}
+
+
+
+
+	@media (max-width: 480px) and (min-width: 322px){
+
+		/*************** Palace-Header Section Starts ***************/
+		#home-icon {
+			width: 16px;
+			height: 16px;
+			margin-top: -2%;
+		}
+		/*************** Palace-Header Section Ends ***************/
+
+
+
+
+
+
+
+		/****************** Starting of palace-Footer  Section *******************************/
+
+		#bpfashion-footer-logo{
+			margin: 0;
+			position: relative;
+			top: 50%;
+			left: 50%;
+			margin-right: -50%;
+			transform: translate(-50%, -20%);
+		}
+
+		#bpfashion-footer-social-icons{
+
+			margin: 0;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-right: -50%;
+			transform: translate(-50%, -50%);
+
+		}
+
+
+		.col_one_third.bpfashion-footer-power-by-col {
+			margin-bottom: 0px;
+			margin-top: 0px;
+			text-align: center;
+		}
+
+		#footer{
+			height: 300px;
+		}
+
+		#copyrights {
+			height: 300px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+
+		/****************** ending of palace-Footer Section *******************************/
+
+
+	}
+
+
+
+
+	@media (max-width: 321px){
+
+
+		/*************** Palace-Header Section Starts ***************/
+
+		#home-icon {
+			margin-top: -2.95%;
+		}
+
+
+		/*************** Palace-Header Section Starts ***************/
+
+
+
+
+
+
+
+
+
+
+
+		/****************** Starting of palace-Footer  Section *******************************/
+
+		#bpfashion-footer-logo{
+			margin: 0;
+			position: relative;
+			top: 50%;
+			left: 50%;
+			margin-right: -50%;
+			transform: translate(-50%, -20%);
+		}
+
+		#bpfashion-footer-social-icons{
+
+			margin: 0;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-right: -50%;
+			transform: translate(-50%, -50%);
+
+		}
+
+
+		.col_one_third.bpfashion-footer-power-by-col {
+			margin-bottom: 0px;
+			margin-top: 0px;
+			text-align: center;
+		}
+
+		#footer{
+			height: 300px;
+		}
+
+		#copyrights {
+			height: 300px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+
+		/****************** ending of palace-Footer Section *******************************/
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
