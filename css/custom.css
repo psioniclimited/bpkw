@@ -1160,10 +1160,11 @@ figure.effect-lily:hover p {
 }
 .owl-carousel.with-carousel-dots .owl-nav [class*=owl-] {
 	margin-top: -45px;
-	height: 40px;
-	line-height: 40px;
-	width: 40px;
+	height: 30px;
+	line-height: 30px;
+	width: 30px;
 	border-radius: 90%;
+	font-size: 20px;
 }
 .owl-carousel .owl-nav [class*=owl-]:hover {
 	background-color: rgba(0,0,0,0.4) !important;
@@ -1416,7 +1417,7 @@ figure.effect-lily:hover p {
 	}
 	.custom-our-clients-content-wrap {
 		padding-top: 0px !important;
-		margin-bottom: 35px;
+		/*margin-bottom: 35px;*/
 	}
 	/********************** starting of bpfashion-footer *****************/
 
@@ -1572,7 +1573,7 @@ figure.effect-lily:hover p {
 	}
 	.custom-our-clients-content-wrap {
 		padding-top: 0px !important;
-		margin-bottom: 35px;
+		/*margin-bottom: 35px;*/
 	}
 
 	/********************** starting of bpfashion-footer *****************/
