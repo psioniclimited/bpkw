@@ -1306,6 +1306,46 @@ figure.effect-lily:hover p {
 	background-color: #fff !important;
 	border-top: none !important;
 }
+.custom-our-certification-p-tag-within-h4 {
+	font-family: 'Montserrat';
+	font-size: 14px;
+	color: #000;
+	margin-top: 5px;
+	font-weight: 300;
+	width: 200px;
+}
+.bpkw-company-overview-heading-block {
+	margin-bottom: 50px;
+}
+
+.row.company-overview-row {
+	margin-bottom: 30px;
+}
+.extra-wrap {
+	overflow: hidden;
+}
+.extra-wrap.extra-wrap1 {
+	min-height: 433px;
+	padding-left: 30px;
+	border-left: 1px solid #fff;
+}
+.dark .extra-wrap-h3 {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 18px;
+	margin-top: 40px;
+	margin-bottom: 8px;
+	color: #333333 !important;
+	text-align: left;
+}
+.extra-wrap-p {
+	font-family: 'Montserrat';
+	font-size: 16px;
+	line-height: 24px;
+	color: #333333;
+	text-align: justify;
+	font-weight: 500;
+}
 /***************************** End Of Global Css ***************************************/
 @media (min-width: 1921px){
 	#header-wrap {
@@ -1332,7 +1372,7 @@ figure.effect-lily:hover p {
 
 	.bpkw-vision-projects-content-wrap {
 		padding: 0;
-		margin-bottom: 80px;
+		margin-bottom: 35px;
 		text-align: center;
 	}
 	.bpkw-vision-text-div {
@@ -1489,7 +1529,7 @@ figure.effect-lily:hover p {
 
 	.bpkw-vision-projects-content-wrap {
 		padding: 0;
-		margin-bottom: 80px;
+		margin-bottom: 35px;
 		text-align: center;
 	}
 	.bpkw-vision-text-div {
@@ -1571,38 +1611,7 @@ figure.effect-lily:hover p {
 		margin-bottom: 25px;
 		height: 60px;
 	}
-	.bpkw-company-overview-heading-block {
-		margin-bottom: 50px;
-	}
 
-	.row.company-overview-row {
-		margin-bottom: 30px;
-	}
-	.extra-wrap {
-		overflow: hidden;
-	}
-	.extra-wrap.extra-wrap1 {
-		min-height: 433px;
-		padding-left: 30px;
-		border-left: 1px solid #fff;
-	}
-	.dark .extra-wrap-h3 {
-		font-family: 'Montserrat';
-		font-weight: 700;
-		font-size: 18px;
-		margin-top: 40px;
-		margin-bottom: 8px;
-		color: #333333 !important;
-		text-align: left;
-	}
-	.extra-wrap-p {
-		font-family: 'Montserrat';
-		font-size: 16px;
-		line-height: 24px;
-		color: #333333;
-		text-align: justify;
-		font-weight: 500;
-	}
 	.section.custom-our-clients-owl-carousel {
 		padding-top: 0px;
 	}
@@ -1712,59 +1721,34 @@ figure.effect-lily:hover p {
 		letter-spacing: 1px;
 		line-height: 40px;
 	}
-	/********************** Starting of Palace our project Section ****************************/
-	#our-project-button {
-
-	}
-
-	#our-project-button span {
-
-	}
-	/********************** ending of Palace our project Section ****************************/
-
-
 	#custom-slider-caption-for-welcome-slider {
-
 		margin-top: 0%;
 		position: absolute;
 		top: 50% !important;
 		left: 50%;
 		margin-right: -50%;
 		transform: translate(-50%, -50%) !important;
-
 	}
-
-
-
-	/********************** Starting of Palace Residence Section ****************************/
-
-
-	figure.effect-lily:hover h2 {
-		margin-bottom: 20px;
+	.carousel-caption-h1 {
+		font-size: 48px;
+		line-height: 58px;
 	}
-
-
-
-
-	/****************** ending of Palace Residence Section *******************************/
-
-
-
-
-
-	/********************** Starting of Palace About Us Section ****************************/
-
-
-
-
-	/****************** ending of Palace About Us Section *******************************/
-
-
-	/********************** starting of Palace-footer *****************/
-
+	.carousel-caption-p {
+		font-size: 28px;
+		line-height: 28px;
+		font-weight: 300;
+	}
+	.bpkw-vision-projects-content-wrap {
+		padding-top: 0px;
+	}
+	.content-wrap.custom-our-clients-content-wrap {
+		padding-top: 0px;
+	}
+	.section.custom-our-clients-owl-carousel {
+		padding-top: 0px;
+	}
 	#power-by-company-name-in-footer{font-size: 13px;}
 
-	/********************** ending of Palace-footer *****************/
 
 
 
