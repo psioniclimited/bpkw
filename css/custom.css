@@ -1346,11 +1346,34 @@ figure.effect-lily:hover p {
 	text-align: justify;
 	font-weight: 500;
 }
+.heading-block ~ p:not(.lead) {
+	font-size: 16px;
+}
+.bpkw-vision-paragraph {
+	font-family: 'Montserrat' !important;
+}
+#header-wrap {
+	background: #fff;
+	height: 100px;
+}
+[class^="icon-"] {
+	color: #000;
+}
+.dark #primary-menu:not(.not-dark) ul li {
+	border-top-color: rgba(0, 0, 0, 0.1) !important;
+}
+.dark #primary-menu:not(.not-dark) ul ul {
+	border: 1px solid rgba(0, 0, 0, 0.1) !important;
+	padding-right: 15px;
+}
+.dark #primary-menu:not(.not-dark) ul ul li > a:not(.last-submenu), #primary-menu.dark ul ul li > a {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
 /***************************** End Of Global Css ***************************************/
 @media (min-width: 1921px){
 	#header-wrap {
 		background: #fff;
-		height: 100px;;
+		height: 100px;
 	}
 	#logo img {
 		height: 100px;;
@@ -1507,7 +1530,7 @@ figure.effect-lily:hover p {
 @media (min-width: 1800px) and (max-width: 1920px){
 	#header-wrap {
 		background: #fff;
-		height: 100px;;
+		height: 100px;
 	}
 	#logo img {
 		height: 100px;;
@@ -1717,7 +1740,7 @@ figure.effect-lily:hover p {
 	}
 	.bpkw-vision-paragraph {
 		font-family: 'Montserrat';
-		font-size: 20px;
+		font-size: 16px;
 		letter-spacing: 1px;
 		line-height: 40px;
 	}
@@ -1749,32 +1772,22 @@ figure.effect-lily:hover p {
 	}
 	#power-by-company-name-in-footer{font-size: 13px;}
 
-
-
-
 }
 
-
-
-
-
 @media (min-width: 992px) and (max-width: 1199px) {
-
-
-	/********************** Starting of Palace our project Section ****************************/
-	#our-project-button {
-
+	#header.transparent-header {
+		background: #fff;
 	}
-
-	#our-project-button span {
-
+	#logo img {
+		height: 75px;
+		-webkit-transition: height .4s ease, opacity .3s ease;
+		-o-transition: height .4s ease, opacity .3s ease;
+		transition: height .4s ease, opacity .3s ease;
 	}
-	/********************** ending of Palace our project Section ****************************/
-
-
-
+	.primary-menu-ul-li-a-div {
+		font-size: 13px;
+	}
 	#custom-slider-caption-for-welcome-slider {
-
 		max-width: 1200px;
 		position: absolute;
 		margin-top: 0%;
@@ -1785,17 +1798,10 @@ figure.effect-lily:hover p {
 		transform: translate(-50%, -50%) !important;
 	}
 
-
-
-
-
-	/*************** Palace-Our-Project Section Starts ***************/
-
-
 	.content-wrap.bpkw-vision-projects-content-wrap{
 
 		position: relative;
-		padding-left: 80px;
+		/*padding-left: 80px;*/
 		text-align: center;
 	}
 
@@ -1810,75 +1816,49 @@ figure.effect-lily:hover p {
 		left: 50%;
 		margin-right: -50%;
 		transform: translate(-50%, 0%);
-
 	}
-
-
 
 	.our-project-custom-row{
-
 		min-width: 1040px;
-
 	}
-
 	.hr-to-vertical {
-
 		margin-left: 25%;
 	}
 
-
 	.our-projects-p {
-
 		width: 500px;
 		text-align: justify;
 	}
-
-
-
-
-
-	/*************** Palace-Our-Project Section Ends ***************/
-
-
-
-	/********************** Starting of Palace Residence Section ****************************/
-
-
-
-
-
-	/****************** ending of Palace Residence Section *******************************/
-
-
-	/****************** startinging of palace-luxury-resort Section *******************************/
 
 	.bpfashion-company-overview-poster-img-for-video {
 		min-height: 450px;
 		min-width: 300px;
 		width: 650px;
 	}
-
-	/****************** ending of palace-luxury-resort Section *******************************/
-
-
-
-	/********************** Starting of Palace About Us Section ****************************/
-
-
-	/****************** ending of Palace About Us Section *******************************/
-
-	/********************** starting of Palace-footer *****************/
-
+	.carousel-caption-h1 {
+		font-size: 48px;
+		line-height: 58px;
+	}
+	.carousel-caption-p {
+		font-size: 28px;
+		line-height: 28px;
+		font-weight: 300;
+	}
+	.bpkw-vision-projects-content-wrap {
+		padding-top: 0px;
+	}
+	.content-wrap.custom-our-clients-content-wrap {
+		padding-top: 0px;
+	}
+	.section.custom-our-clients-owl-carousel {
+		padding-top: 0px;
+	}
+	.bpkw-vision-paragraph {
+		font-size: 16px !important;
+	}
 	#power-by-company-name-in-footer{font-size: 13px;}
 
-	/********************** ending of Palace-footer *****************/
-
-
 }
-
-
-
-
 
 @media (min-width: 768px) and (max-width: 991px) {
 
