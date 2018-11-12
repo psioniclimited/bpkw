@@ -568,6 +568,7 @@ figure.effect-lily:hover p {
 	animation-duration: 4s;
 	animation-fill-mode: both;
 }
+
 .animated05 {
 	opacity: 1;
 	animation-duration: 2s;
@@ -1158,6 +1159,9 @@ figure.effect-lily:hover p {
 .owl-carousel .owl-dots {
 	display: none;
 }
+.owl-carousel .owl-nav.disabled {
+	display: inherit;
+}
 .owl-carousel.with-carousel-dots .owl-nav [class*=owl-] {
 	margin-top: -45px;
 	height: 30px;
@@ -1272,6 +1276,36 @@ figure.effect-lily:hover p {
 	font-family: 'Montserrat';
 	font-size: 13px;
 }
+.oc-item .custom-our-certification-h4:hover {
+	color: #00aded;
+}
+.heading-block.bpkw-contact-us-heading-block {
+	margin-bottom: 20px !important;
+}
+.heading-block.bpkw-contact-us-heading-block:after {
+	margin-top: 0px !important;
+}
+
+.row.custom-footer-row {
+	margin-bottom: 50px;
+}
+#footer-logo {
+	margin-top: -30px;
+}
+.col-md-2.custom-general-footer-col, .col-md-7.custom-general-footer-col , .col-md-3.custom-general-footer-col  {
+	text-align: center;
+}
+#bpfashion-power-by, #power-by-company-name-in-footer, #custom-copyright {
+	font-family: 'Poppins';
+	color: #555;
+	font-size: 13px;
+}
+
+#footer {
+	position: relative;
+	background-color: #fff !important;
+	border-top: none !important;
+}
 /***************************** End Of Global Css ***************************************/
 @media (min-width: 1921px){
 	#header-wrap {
@@ -1346,10 +1380,10 @@ figure.effect-lily:hover p {
 
 	.bpkw-vision-paragraph {
 		font-family: 'Montserrat';
-		font-size: 16px;
+		font-size: 16px !important;
 		text-align: center;
 		letter-spacing: 1px;
-		line-height: 32px;
+		line-height: 32px !important;
 	}
 
 	.button.button-3d.button-xlarge.button-rounded.button-purple {
@@ -1419,6 +1453,7 @@ figure.effect-lily:hover p {
 		padding-top: 0px !important;
 		/*margin-bottom: 35px;*/
 	}
+
 	/********************** starting of bpfashion-footer *****************/
 
 	#power-by-company-name-in-footer{
@@ -1502,10 +1537,10 @@ figure.effect-lily:hover p {
 
 	.bpkw-vision-paragraph {
 		font-family: 'Montserrat';
-		font-size: 16px;
+		font-size: 16px !important;
 		text-align: center;
 		letter-spacing: 1px;
-		line-height: 32px;
+		line-height: 32px !important;
 	}
 
 	.button.button-3d.button-xlarge.button-rounded.button-purple {
