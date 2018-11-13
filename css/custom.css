@@ -1312,7 +1312,7 @@ figure.effect-lily:hover p {
 	color: #000;
 	margin-top: 5px;
 	font-weight: 300;
-	width: 200px;
+	width: 280px;
 }
 .bpkw-company-overview-heading-block {
 	margin-bottom: 50px;
@@ -1359,15 +1359,9 @@ figure.effect-lily:hover p {
 [class^="icon-"] {
 	color: #000;
 }
-.dark #primary-menu:not(.not-dark) ul li {
-	border-top-color: rgba(0, 0, 0, 0.1) !important;
-}
-.dark #primary-menu:not(.not-dark) ul ul {
-	border: 1px solid rgba(0, 0, 0, 0.1) !important;
-	padding-right: 15px;
-}
-.dark #primary-menu:not(.not-dark) ul ul li > a:not(.last-submenu), #primary-menu.dark ul ul li > a {
-	border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+
+.icon-angle-left , .icon-angle-right {
+	color: #fff !important;
 }
 /***************************** End Of Global Css ***************************************/
 @media (min-width: 1921px){
@@ -1861,34 +1855,10 @@ figure.effect-lily:hover p {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
-	/*************** Palace-Header Section Starts ***************/
-	#home-icon {
-		width: 16px;
-		height: 16px;
-		margin-top: -0.95%;
-	}
-	/*************** Palace-Header Section Ends ***************/
-
-
-
-
-
-
-	/*************** Palace-welcome-slider Section Starts ***************/
-
-
 	#custom-welcome-slider-container{
-
 		position: relative;
 		height: 700px;
-
-
-
 	}
-
-
-
 	#custom-slider-caption-for-welcome-slider {
 		margin-top: 0%;
 		position: absolute;
@@ -1896,11 +1866,7 @@ figure.effect-lily:hover p {
 		left: 50%;
 		margin-right: -50%;
 		transform: translate(-50%, -50%) !important;
-
 	}
-
-
-
 	#welcome-slider-heading-block #welcome-slider-h2-01 {
 		font-weight: 400;
 		font-family: 'Montserrat';
@@ -1909,25 +1875,10 @@ figure.effect-lily:hover p {
 		margin-bottom: 0px;
 		line-height: 100px;
 	}
-	/*************** Palace-welcome-slider Section Ends ***************/
-
-
-
-
-
-
-	/*************** Palace-Our-Project Section Starts ***************/
-
-
-
 	.content-wrap.bpkw-vision-projects-content-wrap{
-
 		position: relative;
-
 	}
-
 	.our-project-custom-container{
-
 		min-width: 800px;
 		margin: 0;
 		padding: 0;
@@ -1937,71 +1888,44 @@ figure.effect-lily:hover p {
 		left: 52%;
 		margin-right: -50%;
 		transform: translate(-50%, 0%);
-
 	}
-
-
-
 	.our-project-custom-row{
-
 		min-width: 800px;
-
 	}
-
-
 	.col-md-4.our-project-custom-col-md-4{
-
 		min-width: 800px;
 		min-height: 300px;
 		position: relative;
-
 	}
-
 	.col-md-1.our-project-custom-col-md-1{
-
 		min-width: 800px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-
 	}
-
 	.col-md-7.our-project-holding-column{
 		min-width: 800px;
 		position: relative;
-
 	}
-
-
 	#portfolio{
 		display: block;
 		width: 300px;
 		left: 0;
 		margin: auto;
-
-
 	}
-
 	.hr-to-vertical{
-
 		min-width: 37rem;
 		height: .15rem;
 		margin-top: 5%;
-
 	}
-
-
 	.our-projects-h2{
-
 		font-size: 35px;
 		position: absolute;
 		top: 20%;
 		left: 52%;
 		margin-right: -50%;
 		transform: translate(-50%, -50%);
-
 	}
-
 	.our-projects-p {
 		margin-bottom: 20px;
 		padding-top: 40px;
@@ -2019,10 +1943,7 @@ figure.effect-lily:hover p {
 		margin-right: -50%;
 		transform: translate(-50%, -50%);
 	}
-
-
 	#our-project-button {
-
 		margin: 0;
 		margin-top: 40px;
 		position: absolute;
@@ -2030,71 +1951,58 @@ figure.effect-lily:hover p {
 		left: 52%;
 		margin-right: -50%;
 		transform: translate(-50%, -50%)
-
 	}
-
-	/*************** Palace-Our-Project Section Ends ***************/
-
-
-
-
-
-	/********************** Starting of Palace Residence Section ****************************/
-
-	/****************** ending of Palace Residence Section *******************************/
-
-
-
-	/****************** startinging of palace-luxury-resort Section *******************************/
-
 	.heading-block .bpkw-vision-h2 {
 		font-size: 35px;
 	}
-
 	.heading-block > span:not(.before-heading) {
-
 		font-size: 16px;
 		width: 500px;
 		text-align: center;
 		margin-bottom: 10px;
 	}
-
 	.bpfashion-company-overview-poster-img-for-video {
 		min-height: 135px;
 		min-width: 240px;
 		width: 500px;
 	}
-
 	.heading-block.bpfashion-company-overview-custom-heading-block{
 		margin-bottom: 30px
 	}
-
-	/****************** ending of palace-luxury-resort Section *******************************/
-
-
-	/****************** Starting of palace-Meet-Our-Team Section *******************************/
 	#meet-our-team-heading-block #meet-our-team-h2-01 {
-
 		font-size: 30px;
-
 	}
-
 	#meet-our-team-heading-block .meet-our-team-h2-02 {
 		font-size: 30px;
 	}
-
-
 	#meet-our-button {
-
-		/*width: 200px;*/
 		font-size: 14px;
 	}
 
-	/****************** ending of palace-Meet-Our-Team Section *******************************/
-
-
-
-
+	.carousel-caption-h1 {
+		font-size: 40px;
+		line-height: 50px;
+	}
+	.carousel-caption-p {
+		font-size: 24px;
+		line-height: 24px;
+		font-weight: 300;
+	}
+	.bpkw-vision-projects-content-wrap {
+		padding-top: 0px;
+	}
+	.content-wrap.custom-our-clients-content-wrap {
+		padding-top: 0px;
+	}
+	.section.custom-our-clients-owl-carousel {
+		padding-top: 0px;
+	}
+	.bpkw-vision-paragraph {
+		font-size: 16px !important;
+	}
+	#bpkw-vision {
+		padding-bottom: 35px;
+	}
 }
 
 
@@ -2770,33 +2678,15 @@ figure.effect-lily:hover p {
 
 @media (max-width: 321px){
 
-
-	/*************** Palace-Header Section Starts ***************/
-
 	#home-icon {
 		margin-top: -2.95%;
 	}
 
-
-	/*************** Palace-Header Section Starts ***************/
-
-
-
-
-
-	/*********** Starting of Palace-welcome-slide *********/
-
 	#custom-slider-caption-for-welcome-slider{
-
 		margin-top: 95%;
 		max-width: 300px;
 		height: 300px;
-
-
-
 	}
-
-
 	#welcome-slider-heading-block #welcome-slider-h2-01 {
 		font-weight: 400;
 		font-family: 'Montserrat';
@@ -2805,8 +2695,6 @@ figure.effect-lily:hover p {
 		margin-bottom: 0px;
 		line-height: 38px;
 	}
-
-
 	#welcome-slider-heading-block .welcome-slider-h2-02 {
 		font-weight: 300;
 		font-family: 'Montserrat';
@@ -2818,97 +2706,53 @@ figure.effect-lily:hover p {
 		margin-bottom: 40px;
 		line-height: 20px;
 	}
-
-
-	/********************** Ending of Palace-welcome-slider *****************/
-
-
-
-
-
-
-	/*************** Palace-Our-Project Section Starts ***************/
-
-
-
-
 	.our-project-custom-container{
-
 		min-width: 300px;
 		margin: 0;
 		padding: 0;
-
 	}
-
 	.our-project-custom-row{
-
 		min-width: 300px;
-
 	}
-
-
 	.col-md-4.our-project-custom-col-md-4{
-
 		min-width: 300px;
 		min-height: 300px;
 		position: relative;
-
 	}
-
 	.col-md-1.our-project-custom-col-md-1{
-
 		min-width: 300px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-
 	}
-
 	.col-md-7.our-project-holding-column{
 		min-width: 300px;
 		position: relative;
-
 	}
-
-
 	#portfolio{
 		display: block;
 		width: 300px;
 		left: 0;
 		margin: auto;
-
-
 	}
-
 	.hr-to-vertical{
-
 		min-width: 250px;
 		height: 2.4px;
 		margin-top: 15%;
-
 	}
-
-
-
 	.bpkw-vision-projects-content-wrap {
 		padding-top: 80px;
 		padding-bottom: 170px;
 		text-align: center;
 	}
-
-
-
 	.our-projects-h2{
-
 		font-size: 25px;
 		position: absolute;
 		top: 15%;
 		left: 50%;
 		margin-right: -50%;
 		transform: translate(-50%, -50%);
-
 	}
-
 	.our-projects-p {
 		margin-bottom: 30px;
 		padding-top: 45px;
@@ -2928,10 +2772,7 @@ figure.effect-lily:hover p {
 		margin-right: -50%;
 		transform: translate(-50%, -50%);
 	}
-
-
 	#our-project-button {
-
 		font-size: 0.8rem;
 		margin: 0;
 		margin-top: 40px;
@@ -2940,26 +2781,16 @@ figure.effect-lily:hover p {
 		left: 52.2%;
 		margin-right: -50%;
 		transform: translate(-50%, -50%);
-
 	}
-
-	/*************** Palace-Our-Project Section Ends ***************/
-
-
-
-
-	/****************** startinging of palace-luxury-resort Section *******************************/
 	.bpfashion-company-overview-custom-content-wrap{
 		padding-bottom: 40px;
 	}
 	.section.custom-our-clients-owl-carousel {
 		padding-top: 0px !important;
 	}
-
 	.heading-block .bpkw-vision-h2 {
 		font-size: 25px;
 	}
-
 	.heading-block > span:not(.before-heading) {
 		font-size: 13px;
 		width: 240px;
@@ -2967,51 +2798,30 @@ figure.effect-lily:hover p {
 		margin-bottom: 10px;
 		line-height: 24px;
 	}
-
 	.bpfashion-company-overview-poster-img-for-video {
 		min-height: 135px;
 		min-width: 240px;
 		/*width: 300px;*/
 	}
-
 	.heading-block.bpfashion-company-overview-custom-heading-block{
 		margin-bottom: 50px
 	}
-
-	/****************** ending of palace-luxury-resort Section *******************************/
-
-
-
-	/****************** Starting of palace-Meet-Our-Team Section *******************************/
 	#meet-our-team-heading-block #meet-our-team-h2-01 {
-
 		font-size: 14px;
 		line-height: 45px;
 	}
-
 	#meet-our-team-heading-block #meet-our-team-h2-01 {
 		font-weight: 600;
 	}
-
 	#meet-our-team-heading-block .meet-our-team-h2-02 {
 		font-size: 13px;
 		line-height: 32px;
 		font-weight: 600;
 	}
-
-
-
 	#meet-our-button {
 		font-size: 10px;
 		font-weight: 400;
 	}
-
-	/****************** ending of palace-Meet-Our-Team Section *******************************/
-
-
-
-	/****************** Starting of palace-Footer  Section *******************************/
-
 	#bpfashion-footer-logo{
 		margin: 0;
 		position: relative;
@@ -3020,46 +2830,43 @@ figure.effect-lily:hover p {
 		margin-right: -50%;
 		transform: translate(-50%, -20%);
 	}
-
 	#bpfashion-footer-social-icons{
-
 		margin: 0;
 		position: absolute;
 		top: 50%;
 		left: 50%;
 		margin-right: -50%;
 		transform: translate(-50%, -50%);
-
 	}
-
-
 	.col_one_third.bpfashion-footer-power-by-col {
 		margin-bottom: 0px;
 		margin-top: -20px;
 		text-align: center;
 	}
-
 	#footer{
 		height: 310px;
 	}
-
 	#copyrights{
 		height: 310px;
 		padding-top: 20px ;
 		padding-bottom: 20px;
-
 	}
-
-	/****************** ending of palace-Footer Section *******************************/
-
-
-
-
 }
 
+@media (max-width: 768px) {
+	.dark #primary-menu:not(.not-dark) ul li {
+		border-top-color: rgba(0, 0, 0, 0.1) !important;
+	}
 
+	.dark #primary-menu:not(.not-dark) ul ul {
+		border: 1px solid rgba(0, 0, 0, 0.1) !important;
+		padding-right: 15px;
+	}
 
-
+	.dark #primary-menu:not(.not-dark) ul ul li > a:not(.last-submenu), #primary-menu.dark ul ul li > a {
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+	}
+}
 
 
 
