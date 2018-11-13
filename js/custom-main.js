@@ -16,7 +16,6 @@ $(document).ready(function(){
         } else {
             // $('.st2').removeClass("st66");
         }
-
     });
 });
 $('#oc-clients').owlCarousel({
@@ -27,3 +26,4 @@ $('#oc-clients').owlCarousel({
     nav:true,
     navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>']
 })
+

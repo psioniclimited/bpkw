@@ -184,6 +184,7 @@
 	-webkit-font-smoothing: antialiased !important;
 	animation: carousel-caption-animation 3s forwards;
 }
+
 @-webkit-keyframes carousel-caption-animation {
 	0% {
 		opacity: 0;
@@ -603,6 +604,82 @@
 .icon-angle-right {
 	color: #fff !important;
 }
+
+
+/******************************* Production Page Strats *******************************/
+.bpkw-vision-paragraph.bpkw-production-factory-paragraph {
+	font-weight: 500;
+	text-align: justify !important;
+	line-height: 40px !important;
+}
+
+.bpkw-vision-paragraph.bpkw-production-factory-col-paragraph {
+	text-align: justify !important;
+	line-height: 40px !important;
+}
+.bpkw-production-factory-col-6-div {
+	margin-bottom: 50px;
+}
+#Vector_Smart_Object_xA0_Image_38_ {
+	/*display: none;*/
+}
+
+.svg-img-01 {
+	opacity: 0;
+	animation: svg-animation 3s forwards;
+}
+.svg-img-05 {
+	opacity: 0;
+	animation: svg-animation 5s forwards;
+}
+.svg-img-02 {
+	opacity: 0;
+	animation: svg-animation 6s forwards;
+}
+.svg-img-04 {
+	opacity: 0;
+	animation: svg-animation 7s forwards;
+}
+.svg-img-03 {
+	opacity: 0;
+	animation: svg-animation 8s forwards;
+}
+.svg-img-07 {
+	opacity: 0;
+	animation: svg-animation 9s forwards;
+}
+.svg-img-06 {
+	opacity: 0;
+	animation: svg-animation 10s forwards;
+}
+
+@keyframes  svg-animation {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes svg-animation {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+/******************************* Production Page Strats *******************************/
+
+
+
 /***************************** End Of Global Css ***************************************/
 @media (min-width: 1921px) {
 	#header-wrap {
