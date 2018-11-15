@@ -706,6 +706,33 @@
 .cad-section-right-img-div {
 	margin-top: 10px;
 }
+.owl-carousel.portfolio-carousel.carousel-widget.custom-production-page-owl-gallery {
+	margin-top: 80px;
+}
+.portfolio-overlay a.center-icon {
+	display: block;
+	width: 40px !important;
+	height: 40px !important;
+	margin: -20px 0 0 -20px;
+	opacity: 0;
+	left: 50%;
+	transform: translateX(0%);
+	-webkit-transform: translateX(0%);
+	-moz-transform: translateX(0%);
+}
+.custom-production-inspection-section-left-img {
+	width: 85%;
+}
+.cad-section-small-img.finishing-section-bottom-img {
+	padding: 20px 55px;
+}
+.container.custom-production-packing-container, .container.custom-production-finishing-container {
+	padding-top: 30px;
+}
+.bpkw-production-packing-sub-paragraph {
+	padding-top: 100px;
+	padding-right: 90px;
+}
 /******************************* Production Page Ends *******************************/
 
 /***************************** End Of Global Css ***************************************/
@@ -833,6 +860,7 @@
 	}
 	.bpkw-vision-paragraph.bpkw-production-factory-paragraph.bpkw-production-erp-paragraph.bpkw-production-prod-process-cutting-sub-paragraph {
 		padding-left: 30px;
+		padding-top: 50px;
 	}
 	.heading-block.bpkw-vision-heading-block.bpkw-production-factory-heading-block.bpkw-production-prod-process-cutting-sub-heading-block {
 		margin-top: 120px;
@@ -929,6 +957,7 @@
 	}
 	.bpkw-vision-paragraph.bpkw-production-factory-paragraph.bpkw-production-erp-paragraph.bpkw-production-prod-process-cutting-sub-paragraph {
 		padding-left: 30px;
+		padding-top: 50px;
 	}
 	.heading-block.bpkw-vision-heading-block.bpkw-production-factory-heading-block.bpkw-production-prod-process-cutting-sub-heading-block {
 		margin-top: 120px;
@@ -1017,6 +1046,7 @@
 	}
 	.bpkw-vision-paragraph.bpkw-production-factory-paragraph.bpkw-production-erp-paragraph.bpkw-production-prod-process-cutting-sub-paragraph {
 		padding-left: 30px;
+		padding-top: 50px;
 	}
 	.heading-block.bpkw-vision-heading-block.bpkw-production-factory-heading-block.bpkw-production-prod-process-cutting-sub-heading-block {
 		margin-top: 120px;
@@ -1096,6 +1126,9 @@
 	.bpkw-production-prod-process-sub-col-md-8 .bpkw-production-prod-process-sub-col-md-8-logo-span {
 		float: left;
 		margin-left: -50px;
+	}
+	.bpkw-vision-paragraph.bpkw-production-factory-paragraph.bpkw-production-erp-paragraph.bpkw-production-prod-process-cutting-sub-paragraph {
+		padding-top: 30px;
 	}
 	.heading-block.bpkw-vision-heading-block.bpkw-production-factory-heading-block.bpkw-production-prod-process-cutting-sub-heading-block {
 		margin-top: 120px;

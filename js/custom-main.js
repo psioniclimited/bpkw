@@ -22,9 +22,30 @@ $('#oc-clients').owlCarousel({
     loop:true,
     items: 5,
     margin: 0,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true,
+            loop: true
+        },
+        600:{
+            items:3,
+            nav:true,
+            loop: true
+        },
+        1000:{
+            items:5,
+            nav:true,
+            loop:true
+        }
+    },
     autoplay: true,
     nav:true,
     navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>']
 })
+
+
+
 
 
