@@ -16,7 +16,45 @@ $(document).ready(function(){
 
     });
 });
-$('.custom-production-page-owl-gallery').owlCarousel({
+// $('.custom-production-page-owl-gallery').owlCarousel({
+//     margin:20,
+//     responsiveClass:true,
+//     responsive:{
+//         0:{
+//             items:1,
+//             nav:true,
+//             loop: true
+//         },
+//         600:{
+//             items:2,
+//             nav:true,
+//             loop: true
+//         },
+//         1000:{
+//             items:4,
+//             nav:true,
+//             loop:true
+//         }
+//     },
+//     autoWidth:false,
+//     loop:true,
+//     autoplay: true,
+//     nav:true,
+//     items:4,
+//     navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>']
+// })
+$(document).ready(function() {
+    $(".popup").magnificPopup({
+        type: "iframe",
+        removalDelay: 160,
+        preloader: false,
+        fixedContentPos: true,
+        gallery: {
+            enabled: true
+        }
+    });
+});
+$(".bootleggers").owlCarousel({
     margin:20,
     responsiveClass:true,
     responsive:{
@@ -42,4 +80,4 @@ $('.custom-production-page-owl-gallery').owlCarousel({
     nav:true,
     items:4,
     navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>']
-})
+});

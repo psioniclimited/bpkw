@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9db98df1-5d88-44ec-9e9f-53be79ca5ade" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/custom-production.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom-production.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/production.html" beforeDir="false" afterPath="$PROJECT_DIR$/production.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,20 +19,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="759" column="39" lean-forward="true" selection-start-line="759" selection-start-column="39" selection-end-line="759" selection-end-column="39" />
+            <state relative-caret-position="214">
+              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="production.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/production.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="3816" column="38" selection-start-line="3816" selection-start-column="38" selection-end-line="3816" selection-end-column="38" />
+            <state relative-caret-position="271">
+              <caret line="4189" column="151" selection-start-line="4189" selection-start-column="151" selection-end-line="4189" selection-end-column="151" />
+              <caret line="4191" column="134" selection-start-line="4191" selection-start-column="134" selection-end-line="4191" selection-end-column="134" />
+              <caret line="4192" column="134" selection-start-line="4192" selection-start-column="134" selection-end-line="4192" selection-end-column="134" />
+              <caret line="4193" column="134" selection-start-line="4193" selection-start-column="134" selection-end-line="4193" selection-end-column="134" />
               <folding>
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -57,6 +62,7 @@
                 <element signature="n#div#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#4;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -79,6 +85,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="custom-production.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/custom-production.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -91,7 +106,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.owl-carousel.with-carousel-dots .owl-nav [class*=owl-]</find>
       <find>owl</find>
       <find>oc</find>
       <find>.bpkw-vision-paragraph</find>
@@ -121,6 +135,7 @@
       <find>class=&quot;st0</find>
       <find>1921</find>
       <find>bpkw-production-prod-process-sub-col-md-8</find>
+      <find>iframe</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -132,9 +147,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/custom-production.js" />
         <option value="$PROJECT_DIR$/js/custom-main.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/custom-production.js" />
         <option value="$PROJECT_DIR$/production.html" />
         <option value="$PROJECT_DIR$/css/custom.css" />
       </list>
@@ -185,7 +200,7 @@
               <item name="bpkw" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
               <item name="custom-images" type="462c0819:PsiDirectoryNode" />
-              <item name="logo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -238,12 +253,12 @@
       <workItem from="1542004380599" duration="18174000" />
       <workItem from="1542088686131" duration="19888000" />
       <workItem from="1542173025201" duration="17655000" />
-      <workItem from="1542259704999" duration="15967000" />
+      <workItem from="1542259704999" duration="20290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118974000" />
+    <option name="totallyTimeSpent" value="123297000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -315,6 +330,7 @@
             <element signature="n#div#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -501,13 +517,6 @@
     <entry file="file://$PROJECT_DIR$/images/custom-images/test/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/custom-production.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -534,17 +543,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
+    <entry file="file://$PROJECT_DIR$/js/custom-production.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="759" column="39" lean-forward="true" selection-start-line="759" selection-start-column="39" selection-end-line="759" selection-end-column="39" />
+        <state relative-caret-position="358">
+          <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/production.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="3816" column="38" selection-start-line="3816" selection-start-column="38" selection-end-line="3816" selection-end-column="38" />
+        <state relative-caret-position="271">
+          <caret line="4189" column="151" selection-start-line="4189" selection-start-column="151" selection-end-line="4189" selection-end-column="151" />
+          <caret line="4191" column="134" selection-start-line="4191" selection-start-column="134" selection-end-line="4191" selection-end-column="134" />
+          <caret line="4192" column="134" selection-start-line="4192" selection-start-column="134" selection-end-line="4192" selection-end-column="134" />
+          <caret line="4193" column="134" selection-start-line="4193" selection-start-column="134" selection-end-line="4193" selection-end-column="134" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -571,6 +583,7 @@
             <element signature="n#div#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -589,6 +602,13 @@
             <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
         </state>
       </provider>
     </entry>
