@@ -726,12 +726,42 @@
 .cad-section-small-img.finishing-section-bottom-img {
 	padding: 20px 55px;
 }
-.container.custom-production-packing-container, .container.custom-production-finishing-container {
+.container.custom-production-packing-container, .container.custom-production-finishing-container, .container.custom-production-prod-safety-container {
 	padding-top: 30px;
+}
+.container.custom-production-quality-assurance-section-container {
+	padding-top: 100px;
 }
 .bpkw-production-packing-sub-paragraph {
 	padding-top: 100px;
-	padding-right: 90px;
+	padding-right: 90px !important;
+}
+.heading-block.bpkw-production-qa-title-heading-block {
+	margin-bottom: 80px;
+}
+.heading-block.bpkw-production-qa-heading-block {
+	margin-top: 30px;
+}
+.heading-block .bpkw-vision-h2.bpkw-production-factory-h2.bpkw-production-qa-h2 {
+	font-family: "Montserrat";
+	font-size: 24px;
+	font-weight: 400 !important;
+}
+.heading-block .bpkw-vision-h2-span.bpkw-production-factory-h2-span.bpkw-production-qa-h2-span {
+	font-family: "Montserrat";
+	font-size: 24px;
+}
+.bpkw-vision-paragraph.bpkw-production-factory-paragraph.bpkw-production-erp-paragraph.bpkw-production-prod-process-sub-paragraph.bpkw-production-qa-sub-paragraph {
+	padding: 0px 10px;
+}
+.bpkw-vision-paragraph.bpkw-production-factory-paragraph.bpkw-production-erp-paragraph.bpkw-production-prod-process-sub-paragraph.bpkw-production-pwl-sub-paragraph {
+	padding-top: 40px;
+}
+.col-md-4.custom-production-pwl-col-4 {
+	padding: 0 20px;
+}
+.bpkw-vision-paragraph.bpkw-production-factory-paragraph.bpkw-production-erp-paragraph.bpkw-production-prod-process-sub-paragraph.bpkw-production-finishing-sub-paragraph {
+	padding-right: 0px;
 }
 /******************************* Production Page Ends *******************************/
 
