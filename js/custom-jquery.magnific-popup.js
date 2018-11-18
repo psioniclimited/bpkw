@@ -834,7 +834,6 @@ $.magnificPopup = {
 		} else {
 			options = $.extend(true, {}, options);
 		}
-
 		options.isObj = true;
 		options.index = index || 0;
 		return this.instance.open(options);
@@ -1157,12 +1156,13 @@ $.magnificPopup.registerModule('image', {
 			_mfpOn(OPEN_EVENT+ns, function() {
 				if(mfp.currItem.type === 'image' && imgSt.cursor) {
 					$(document.body).addClass(imgSt.cursor);
-				}
+                }
 			});
 
 			_mfpOn(CLOSE_EVENT+ns, function() {
 				if(imgSt.cursor) {
 					$(document.body).removeClass(imgSt.cursor);
+
 				}
 				_window.off('resize' + EVENT_NS);
 			});
@@ -1571,7 +1571,7 @@ $.magnificPopup.registerModule(IFRAME_NS, {
 	options: {
 		markup: '<div class="mfp-iframe-scaler">'+
 					'<div class="mfp-close"></div>'+
-					'<iframe class="mfp-iframe" src="//about:blank" frameborder="0" allowfullscreen></iframe>'+
+					'<iframe class="mfp-iframe" id="custom-iframe" src="//about:blank" frameborder="0" allowfullscreen onload="access()"></iframe>'+
 				'</div>',
 
 		srcAction: 'iframe_src',

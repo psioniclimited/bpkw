@@ -12,8 +12,6 @@ $(document).ready(function(){
         } else {
             // $('.st2').removeClass("st66");
         }
-
-
     });
 });
 // $('.custom-production-page-owl-gallery').owlCarousel({
@@ -86,3 +84,11 @@ $(".bootleggers").owlCarousel({
     items:4,
     navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>']
 });
+
+function access() {
+    var iframe = $('#custom-iframe')[0];
+    var innerDoc = iframe.contentDocument || iframe.contentWindow.document ;
+    // console.log(innerDoc.body);
+    innerDoc.body.style.textAlign = "center";
+
+}
