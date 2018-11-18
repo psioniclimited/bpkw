@@ -68,6 +68,11 @@ $(".bootleggers").owlCarousel({
             nav:true,
             loop: true
         },
+        768:{
+            items:3,
+            nav:true,
+            loop: true
+        },
         1000:{
             items:4,
             nav:true,

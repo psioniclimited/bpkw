@@ -41,22 +41,28 @@
 	/* Microsoft Edge */
 	color: #00aded;
 }
+.mfp-iframe-scaler {
+	/*width: 100%;*/
+	/*height: 100%;*/
+	/*overflow: visible;*/
+	/*padding: 100%;*/
+}
 .mfp-iframe-scaler iframe {
-	position: absolute;
-	display: block;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 50%;
-	transform: translateX(-50%);
-	-webkit-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
+	/*position: absolute;*/
+	/*display: block;*/
+	/*width: 100%;*/
+	/*height: 100%;*/
+	/*top: 50%;*/
+	/*left: 50%;*/
+	/*transform: translate(-50%, -50%);*/
+	/*-webkit-transform: translate(-50%, -50%);*/
+	/*-moz-transform: translate(-50%, -50%);*/
 	box-shadow: 0 0 8px transparent !important;
-	background: transparent !important; ;
+	background: transparent !important;
 }
 .mfp-iframe-holder .mfp-content {
 	line-height: 0;
-	width: 100%;
+	width: 1200px;
 	max-width: 100%;
 }
 #primary-menu ul ul li a .primary-menu-ul-li-a-div {
@@ -679,16 +685,7 @@
 		opacity: 1;
 	}
 }
-.custom-production-pdf-holder-div {
-	/*padding-top: 25px;*/
-	/*border: 2px solid rgba(0, 0, 0, 0.5);*/
-	/*border-style: dashed;*/
-	/*width: 90%;*/
-	/*margin-left: 50%;*/
-	/*transform: translateX(-50%);*/
-	/*-webkit-transform: translateX(-50%);*/
-	/*-moz-transform: translateX(-50%);*/
-}
+
 #Layer_2 {
 	width: 150%;
 	margin-left: 50%;
@@ -718,8 +715,16 @@
 .cad-section-right-img-div {
 	margin-top: 10px;
 }
-.owl-carousel.portfolio-carousel.carousel-widget.custom-production-page-owl-gallery {
+.owl-carousel.custom-production-page-owl-gallery {
 	margin-top: 80px;
+}
+.owl-carousel.custom-production-page-owl-gallery.with-carousel-dots .owl-nav [class*="owl-"] {
+	margin-top: -20px;
+	height: 40px;
+	line-height: 30px;
+	width: 40px;
+	border-radius: 90%;
+	font-size: 20px;
 }
 .portfolio-overlay a.center-icon {
 	display: block;
@@ -733,7 +738,7 @@
 	-moz-transform: translateX(0%);
 }
 .custom-production-inspection-section-left-img {
-	width: 85%;
+	width: 70%;
 }
 .cad-section-small-img.finishing-section-bottom-img {
 	padding: 20px 55px;
@@ -1175,6 +1180,9 @@
 	.heading-block.bpkw-vision-heading-block.bpkw-production-factory-heading-block.bpkw-production-prod-process-cutting-sub-heading-block {
 		margin-top: 120px;
 	}
+	.cad-section-small-img.finishing-section-bottom-img {
+		width: 40%;
+	}
 	/**************************************************Production page ends**************************************************/
 }
 
@@ -1259,6 +1267,9 @@
 	}
 	.heading-block.bpkw-vision-heading-block.bpkw-production-factory-heading-block.bpkw-production-prod-process-cutting-sub-heading-block {
 		margin-top: 100px;
+	}
+	.cad-section-small-img.finishing-section-bottom-img {
+		width: 49%;
 	}
 	/**************************************************Production page ends**************************************************/
 }
@@ -1377,6 +1388,21 @@
 	.bpkw-vision-paragraph.bpkw-production-factory-paragraph.bpkw-production-erp-paragraph.bpkw-production-prod-process-cutting-sub-paragraph {
 		margin-top: 30px;
 	}
+	.cad-section-small-img.finishing-section-bottom-img {
+		width: 49%;
+	}
+	.cad-section-right-img-div {
+		text-align: center !important;
+	}
+	.cad-section-small-img.finishing-section-bottom-img {
+		padding: 20px 20px;
+	}
+	.custom-production-qa-img-div {
+		text-align: center;
+	}
+	.custom-production-pwl-col-4 .custom-production-qa-img-div img {
+		width: 40%;
+	}
 	/**************************************************Production page ends**************************************************/
 }
 
@@ -1491,6 +1517,21 @@
 	}
 	.bpkw-vision-paragraph.bpkw-production-factory-paragraph.bpkw-production-erp-paragraph.bpkw-production-prod-process-cutting-sub-paragraph {
 		margin-top: 30px;
+	}
+	.cad-section-small-img.finishing-section-bottom-img {
+		width: 49%;
+	}
+	.cad-section-right-img-div {
+		text-align: center !important;
+	}
+	.cad-section-small-img.finishing-section-bottom-img {
+		padding: 20px 20px;
+	}
+	.custom-production-qa-img-div {
+		text-align: center;
+	}
+	.custom-production-pwl-col-4 .custom-production-qa-img-div img {
+		width: 60%;
 	}
 	/**************************************************Production page ends**************************************************/
 }
@@ -1615,6 +1656,21 @@
 	}
 	.bpkw-vision-paragraph.bpkw-production-factory-paragraph.bpkw-production-erp-paragraph.bpkw-production-prod-process-cutting-sub-paragraph {
 		margin-top: 20px;
+	}
+	.cad-section-small-img.finishing-section-bottom-img {
+		width: 49%;
+	}
+	.cad-section-right-img-div {
+		text-align: center !important;
+	}
+	.cad-section-small-img.finishing-section-bottom-img {
+		padding: 20px 20px;
+	}
+	.custom-production-qa-img-div {
+		text-align: center;
+	}
+	.custom-production-pwl-col-4 .custom-production-qa-img-div img {
+		width: 60%;
 	}
 	/**************************************************Production page ends**************************************************/
 }
