@@ -6,9 +6,6 @@
 	-----------------------------------------------------------------*/
 
 /* Global CSS */
-body {
-	text-align: center !important;
-}
 ::selection {
 	font-family: "Montserrat";
 	background: #00aded !important;
@@ -733,7 +730,7 @@ body {
 	-moz-transform: translateX(0%);
 }
 .custom-production-inspection-section-left-img {
-	width: 70%;
+	width: 60%;
 }
 .cad-section-small-img.finishing-section-bottom-img {
 	padding: 20px 55px;
@@ -773,7 +770,25 @@ body {
 	padding: 0 20px;
 }
 .bpkw-vision-paragraph.bpkw-production-factory-paragraph.bpkw-production-erp-paragraph.bpkw-production-prod-process-sub-paragraph.bpkw-production-finishing-sub-paragraph {
-	padding-right: 0px;
+	padding-right: 0px !important;
+}
+.bpkw-production-cad-img {
+width: 75%;
+}
+.bpkw-production-sewing-img {
+	width: 80%;
+}
+.cad-section-small-img.finishing-section-bottom-img {
+	width: 30%;
+}
+.bpkw-production-pwl-img {
+	width: 60%;
+}
+.bpkw-production-packing-img {
+	width: 75%;
+}
+.bpkw-production-cutting-img {
+	width: 90%;
 }
 /******************************* Production Page Ends *******************************/
 
@@ -819,10 +834,6 @@ body {
 	.emphasis-title.vertical-middle.center {
 		top: 65% !important;
 	}
-	.custom-welcome-slider-div {
-		height: 1000px !important;
-		margin-top: -18%;
-	}
 	.custom-header-container {
 		max-width: 1500px !important;
 	}
@@ -832,37 +843,6 @@ body {
 		text-align: center;
 		letter-spacing: 1px;
 		line-height: 32px !important;
-	}
-	.bpkw-company-overview-heading-block {
-		margin-bottom: 50px;
-	}
-	.row.company-overview-row {
-		margin-bottom: 30px;
-	}
-	.extra-wrap {
-		overflow: hidden;
-	}
-	.extra-wrap.extra-wrap1 {
-		min-height: 433px;
-		padding-left: 30px;
-		border-left: 1px solid #fff;
-	}
-	.dark .extra-wrap-h3 {
-		font-family: "Montserrat";
-		font-weight: 700;
-		font-size: 18px;
-		margin-top: 40px;
-		margin-bottom: 8px;
-		color: #333333 !important;
-		text-align: left;
-	}
-	.extra-wrap-p {
-		font-family: "Montserrat";
-		font-size: 16px;
-		line-height: 24px;
-		color: #333333;
-		text-align: justify;
-		font-weight: 500;
 	}
 	.section.custom-our-clients-owl-carousel {
 		padding-top: 0px;
@@ -894,7 +874,7 @@ body {
 	}
 	.bpkw-vision-paragraph.bpkw-production-factory-paragraph.bpkw-production-erp-paragraph.bpkw-production-prod-process-sub-paragraph
 	{
-		padding-right: 30px;
+		padding-right: 30px !important;
 	}
 	.bpkw-production-prod-process-sub-col-md-8 .bpkw-production-prod-process-sub-col-md-8-logo-span {
 		float: left;
@@ -991,7 +971,7 @@ body {
 	}
 	.bpkw-vision-paragraph.bpkw-production-factory-paragraph.bpkw-production-erp-paragraph.bpkw-production-prod-process-sub-paragraph
 	{
-		padding-right: 30px;
+		padding-right: 30px !important;
 	}
 	.bpkw-production-prod-process-sub-col-md-8 .bpkw-production-prod-process-sub-col-md-8-logo-span {
 		float: left;
@@ -1003,6 +983,9 @@ body {
 	}
 	.heading-block.bpkw-vision-heading-block.bpkw-production-factory-heading-block.bpkw-production-prod-process-cutting-sub-heading-block {
 		margin-top: 120px;
+	}
+	.bpkw-vision-paragraph.bpkw-production-factory-paragraph.bpkw-production-erp-paragraph.bpkw-production-prod-process-sub-paragraph.bpkw-production-qa-sub-paragraph {
+		padding: 5px !important;
 	}
 	/**************************************************Production page ends**************************************************/
 }

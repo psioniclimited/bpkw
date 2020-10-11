@@ -88,7 +88,7 @@ $(".bootleggers").owlCarousel({
 function access() {
     var iframe = $('#custom-iframe')[0];
     var innerDoc = iframe.contentDocument || iframe.contentWindow.document ;
-    // console.log(innerDoc.body);
     innerDoc.body.style.textAlign = "center";
+    // console.log(innerDoc.body);
 
 }
